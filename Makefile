@@ -6,7 +6,7 @@
 #    By: npimenof <npimenof@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/15 16:49:26 by npimenof          #+#    #+#              #
-#    Updated: 2020/09/24 16:14:22 by npimenof         ###   ########.fr        #
+#    Updated: 2020/10/13 14:01:34 by npimenof         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -50,7 +50,7 @@ OBJS =  ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o\
 
 INCL = ./includes
 
-all: $(NAME)
+all: $(NAME) $(INCL)/libft.h $(INCL)/get_next_line.h
 
 $(NAME): $(SRCS)
 	gcc $(FLAGS) -c $(SRCS) -I$(INCL)
