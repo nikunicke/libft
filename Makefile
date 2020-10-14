@@ -6,7 +6,7 @@
 #    By: npimenof <npimenof@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/15 16:49:26 by npimenof          #+#    #+#              #
-#    Updated: 2020/10/13 14:01:34 by npimenof         ###   ########.fr        #
+#    Updated: 2020/10/14 17:45:05 by npimenof         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ SRCS =  ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c\
 		ft_strcspn.c ft_strspn.c ft_abs.c ft_fabs.c ft_creplace.c ft_cnreplace.c\
 		ft_pow_e.c ft_itoa_base.c ft_nchars.c ft_sign.c ft_del_args.c\
 		ft_ignore_neg.c ft_lfmod.c ft_del_lstcontent.c ft_lstadd_sorted.c\
-		ft_lstrev.c ft_lstlen.c ft_lstpop.c ft_lstcontent.c
+		ft_lstrev.c ft_lstlen.c ft_lstpop.c ft_lstcontent.c ft_lstpush.c
 
 OBJS =  ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o\
 		ft_isdigit.o ft_isprint.o ft_iswhitespace.o ft_itoa.o ft_lstadd.o\
@@ -46,7 +46,7 @@ OBJS =  ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o\
 		ft_strcspn.o ft_strspn.o ft_abs.o ft_fabs.o ft_creplace.o ft_cnreplace.o\
 		ft_pow_e.o ft_itoa_base.o ft_nchars.o ft_sign.o ft_del_args.o\
 		ft_ignore_neg.o ft_lfmod.o ft_del_lstcontent.o ft_lstadd_sorted.o\
-		ft_lstrev.o ft_lstlen.o ft_lstpop.o ft_lstcontent.o
+		ft_lstrev.o ft_lstlen.o ft_lstpop.o ft_lstcontent.o ft_lstpush.o
 
 INCL = ./includes
 

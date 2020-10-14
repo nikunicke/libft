@@ -6,7 +6,7 @@
 /*   By: npimenof <npimenof@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/15 17:21:39 by npimenof          #+#    #+#             */
-/*   Updated: 2020/09/24 16:14:05 by npimenof         ###   ########.fr       */
+/*   Updated: 2020/10/14 17:45:57 by npimenof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,6 +106,7 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstadd_sorted(t_list **head, t_list *new);
 void				ft_lstrev(t_list **head);
 void				ft_lstpop(t_list **head);
+void				ft_lstpush(t_list **head, t_list *new);
 void				ft_del_lstcontent(void *content, size_t content_size);
 void				ft_del_args(int count, ...);
 
