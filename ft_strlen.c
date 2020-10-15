@@ -6,7 +6,7 @@
 /*   By: npimenof <npimenof@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/15 19:35:22 by npimenof          #+#    #+#             */
-/*   Updated: 2019/12/09 20:48:50 by npimenof         ###   ########.fr       */
+/*   Updated: 2020/10/15 13:21:47 by npimenof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,10 @@
 
 size_t	ft_strlen(const char *s)
 {
-	size_t	i;
+	const char	*p;
 
-	if (!s)
-		return (0);
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
+	p = s;
+	while (*s)
+		s++;
+	return (s - p);
 }
