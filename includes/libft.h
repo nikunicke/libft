@@ -6,7 +6,7 @@
 /*   By: npimenof <npimenof@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/15 17:21:39 by npimenof          #+#    #+#             */
-/*   Updated: 2020/10/21 11:26:36 by npimenof         ###   ########.fr       */
+/*   Updated: 2020/10/26 16:06:56 by npimenof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,6 +81,7 @@ void				*ft_memccpy(void *dst, const void *src, int c, size_t n);
 void				*ft_memmove(void *dst, const void *src, size_t n);
 void				*ft_memchr(const void *s, int c, size_t n);
 void				*ft_memalloc(size_t size);
+void				*ft_malloctype(size_t type, size_t s);
 void				ft_bzero(void *s, size_t n);
 void				ft_memdel(void **ap);
 void				ft_strdel(char **as);
