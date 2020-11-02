@@ -6,7 +6,7 @@
 /*   By: npimenof <npimenof@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/26 16:06:31 by npimenof          #+#    #+#             */
-/*   Updated: 2020/10/26 16:07:10 by npimenof         ###   ########.fr       */
+/*   Updated: 2020/11/02 14:38:09 by npimenof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,6 @@ void	*ft_malloctype(size_t type, size_t s)
 
 	if (!(p = malloc(sizeof(type) * s)))
 		return (NULL);
-	ft_bzero(p, sizeof(type) * s);
+	ft_bzero(p, type * s);
 	return (p);
 }
