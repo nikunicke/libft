@@ -6,7 +6,7 @@
 /*   By: npimenof <npimenof@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/28 10:35:41 by npimenof          #+#    #+#             */
-/*   Updated: 2020/10/08 16:19:52 by npimenof         ###   ########.fr       */
+/*   Updated: 2020/11/09 17:04:25 by npimenof         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ static int	trim_line(char **pos, char **line, int fd, int ret)
 		*line = ft_strsub(pos[fd], 0, i);
 		ft_strdel(&pos[fd]);
 	}
-	return (i);
+	return (i + 1);
 }
 
 int			ft_get_next_line(const int fd, char **line)
